@@ -11,7 +11,7 @@ return (
             <img className=" logoSNS" src='/img/linkedin.svg'/>
         </a>
 
-        <a className="py-2 d-none d-md-inline-block aWrap" target="_blank" href="https://www.linkedin.com/in/fatinnabila/">
+        <a className="py-2 d-none d-md-inline-block aWrap" target="_blank" href="https://github.com/fatinabila">
             <img className=" logoSNS" src='/img/github.svg'/>
         </a>
     </div>
