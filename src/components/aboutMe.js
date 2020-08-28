@@ -2,19 +2,19 @@ import React from 'react';
 
 const AboutMeComponent = () => {
 
-    fetch("https://covid-193.p.rapidapi.com/statistics", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-host": "covid-193.p.rapidapi.com",
-            "x-rapidapi-key": "qPlQHf4kXMmshH0glnYIWnVnResJp1NdWC1jsnpHBkvLsm5HT1"
-        }
-    })
-    .then(response => {
-        console.log(response);
-    })
-    .catch(err => {
-        console.log(err);
-    });
+    // fetch("https://covid-193.p.rapidapi.com/statistics", {
+    //     "method": "GET",
+    //     "headers": {
+    //         "x-rapidapi-host": "covid-193.p.rapidapi.com",
+    //         "x-rapidapi-key": "qPlQHf4kXMmshH0glnYIWnVnResJp1NdWC1jsnpHBkvLsm5HT1"
+    //     }
+    // })
+    // .then(response => {
+    //     console.log(response);
+    // })
+    // .catch(err => {
+    //     console.log(err);
+    // });
 
 
 
