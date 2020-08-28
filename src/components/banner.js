@@ -9,7 +9,7 @@ return (
                 <div className="carousel-inner">
 
                     <div className="carousel-item active">
-                       <a href="https://fatinabila.github.io/covid19-dashboard/" target="_blank"> 
+                       <a href="https://fatinabila.github.io/covid19-dashboard/" target="_blank" rel="noopener noreferrer"> 
                          <img src="img/bannerIntro.png" className="d-block w-100" alt="..."/>
                        </a>
                     </div>

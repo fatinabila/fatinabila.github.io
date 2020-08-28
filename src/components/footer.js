@@ -9,7 +9,7 @@ return (
 
 
 
-<div class="footer">
+<div className="footer">
   <p > Copyright© {currYear}</p>
 </div>
         

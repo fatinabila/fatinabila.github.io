@@ -32,7 +32,7 @@ const SkillComponent = () => {
           <div className="parentSkill col-xs-2">
             
              <div className="skill" style={{backgroundColor: props.color}}>
-                 <img src={props.src}/>
+                 <img alt="props.name" src={props.src}/>
              </div>
 
              <p className="skillName"> {props.name}</p>
