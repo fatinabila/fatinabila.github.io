@@ -1,0 +1,83 @@
+
+
+body {
+  font-family: Merriweather,serif;
+}
+h3{
+  font-weight: bold;
+  font-family: Lora,serif;
+}
+
+h1.display-4{
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: Lora,serif;
+}
+
+
+
+p{
+  line-height: 30px;
+  margin: 25px 0px;
+}
+
+p.lead {
+  margin: 0px;
+}
+
+.component{
+  margin:50px 0px;
+}
+
+.carouselCustom {
+  margin: 40px 0px;
+  padding: 30px;
+  box-shadow: 0 0 10px 1px rgba(93, 93, 93, 0.27);
+  border-radius: 5px;
+}
+
+#aboutMe{
+  /* margin-top: -180px; */
+  background-color: #ffffff;
+  z-index: 9999;
+  /* border: solid; */
+  opacity: 1;
+  /* padding-top: 50px; */
+  border-radius: 5px;
+}
+
+.btnLong{
+  width: 100%;
+  background-color: #ffcf60;
+  position:relative;
+  font-weight: bold;
+  font-family: Lora,serif;
+  padding:10px;
+}
+
+.btnLong::after{
+  content: url('/img/right.svg');
+  position: absolute;
+  right:10px;
+  
+  width: 15px;
+}
+
+.center{
+  text-align:center;
+}
+
+footer{
+  background-color:#3B3C36;
+  
+}
+
+.footer > p {
+ 
+  color: #fff;
+  padding: 15px 25px;
+  margin: 0px;
+  text-align:center;
+  font-size:14px;
+
+}
